@@ -26,14 +26,38 @@ const Sidebar: React.FC = () => {
       </div>
 
       {/* ------------ Sidebar Items ------------ */}
-      <div className="w-full space-y-[8px] mt-[12px]">
+      <div className="w-[180px] space-y-[8px] mt-[8px] p-[8px]">
+        <SidebarItem label="Dashboard" icon={<HomeIcon />} />
+        <SidebarItem label="Documents" icon={<CalendarIcon />} />
+        <SidebarItem label="Chat" icon={<DocumentIcon />} />
+        <SidebarItem label="Projects" icon={<HomeIcon />} />
+        <SidebarItem label="Planner" icon={<HomeIcon />} />
+      </div>
+      <Dividerline />
+      <div className="w-[164px] space-y-[8px] ">
         <SidebarItem label="Home" icon={<HomeIcon />} />
         <SidebarItem label="Search" icon={<CalendarIcon />} />
         <SidebarItem label="Library" icon={<DocumentIcon />} />
-        <SidebarItem label="Settings" icon={<HomeIcon />} />
-        <SidebarItem label="Profile" icon={<HomeIcon />} />
       </div>
-      <Dividerline />
+
+      <div className="w-[164px] flex flex-col  bottom-0 absolute pb-[12px] ">
+        <div className="space-y-[8px] mb-[20px]">
+          <SidebarItem label="Collapse" icon={<HomeIcon />} />
+          <SidebarItem label="Settings" icon={<CalendarIcon />} />
+          <SidebarItem label="Help and Support" icon={<CalendarIcon />} />
+        </div>
+
+        <div className=" mt-[12px] flex">
+          <img
+            className="w-9 h-9 rounded-full shadow-[0px_2px_4px_0px_rgba(58,69,82,0.04)] border border-[#262933]"
+            src=""
+          />
+          <div className="pl-[8px]">
+            <p className="text-white/80 text-sm font-semibold  leading-tight">Aman bhujel</p>
+            <p className="text-white/60 text-xs font-normal  leading-none">Aman@gmail.com</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
