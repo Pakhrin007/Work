@@ -39,6 +39,7 @@ const Sidebar: React.FC = () => {
         <SidebarItem label="Search" icon={<CalendarIcon />} />
         <SidebarItem label="Library" icon={<DocumentIcon />} />
       </div>
+      {/* -------------------- Buttom section ---------------------------- */}
 
       <div className="w-[164px] flex flex-col  bottom-0 absolute pb-[12px] ">
         <div className="space-y-[8px] mb-[20px]">
