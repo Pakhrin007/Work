@@ -27,31 +27,35 @@ function App() {
           {/* <SearchIcon  /> */}
           <div className="h-[14px] w-[14px] text-white cursor-pointer">{<SearchIcon />}</div>
         </div>
-    
-          <div className="flex gap-4 items-center cursor-pointer">
-            <div className='bg-green-600 rounded-full flex justify-around items-center gap-x-3 text-white py-1 px-2'>
+
+        <div className="flex gap-4 items-center cursor-pointer">
+          <div className="bg-green-600 rounded-full flex justify-around items-center gap-x-3 text-white py-1 px-2">
             <TimerIcon />
             <span>05m</span>
             <DropDownIcon />
-            </div>
-            <h2 className='text-xl text-white'>Tue, 24 December, 2024</h2>
           </div>
+          <h2 className="text-xl text-white">Tue, 24 December, 2024</h2>
+        </div>
       </header>
 
       <div className="w-[60px] h-screen bg-[#10131E] px-[8px] py-[12px]">
-      <div
-      className="self-stretch justify-start items-center gap-4 inline-flex w-full cursor-pointer flex-col"
-    >
-      <div className=" w-[36px] h-[36px] p-2 bg-white/5 rounded-lg border border-white/10 justify-start items-center gap-2.5 flex">
-        <div className="w-5 h-5 justify-center items-center flex"><CalendarIcon /></div>
-      </div>
-      <div className=" w-[36px] h-[36px] p-2 bg-white/5 rounded-lg border border-white/10 justify-start items-center gap-2.5 flex">
-        <div className="w-5 h-5 justify-center items-center flex"><Task /></div>
-      </div>
-      <div className=" w-[36px] h-[36px] p-2 bg-white/5 rounded-lg border border-dashed border-white/10 justify-start items-center gap-2.5 flex">
-        <div className="w-5 h-5 justify-center items-center flex"><DownloadIcon /></div>
-      </div>
-    </div>
+        <div className="self-stretch justify-start items-center gap-4 inline-flex w-full cursor-pointer flex-col">
+          <div className=" w-[36px] h-[36px] p-2 bg-white/5 rounded-lg border border-white/10 justify-start items-center gap-2.5 flex">
+            <div className="w-5 h-5 justify-center items-center flex">
+              <CalendarIcon />
+            </div>
+          </div>
+          <div className=" w-[36px] h-[36px] p-2 bg-white/5 rounded-lg border border-white/10 justify-start items-center gap-2.5 flex">
+            <div className="w-5 h-5 justify-center items-center flex">
+              <Task />
+            </div>
+          </div>
+          <div className=" w-[36px] h-[36px] p-2 bg-white/5 rounded-lg border border-dashed border-white/10 justify-start items-center gap-2.5 flex">
+            <div className="w-5 h-5 justify-center items-center flex">
+              <DownloadIcon />
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* <Index /> */}
