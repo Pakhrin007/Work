@@ -1,10 +1,13 @@
 import React from 'react';
 import Sidebar from './sidebar/Index';
-
+import Index from './Components/index/index';
+import DocSidebarCard from './Components/DocumentSidebar/DocumentSidebarCard/DocSidebarCard';
 function App() {
   return (
-    <div className="w-full h-100% bg-[#191D2D]">
-      <Sidebar />
+    <div className="w-screen h-screen bg-green-600 ">
+      {/* <Sidebar /> */}
+      {/* <Index /> */}
+      <DocSidebarCard />
     </div>
   );
 }
