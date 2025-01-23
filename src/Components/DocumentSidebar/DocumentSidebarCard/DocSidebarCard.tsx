@@ -1,12 +1,17 @@
 import React from 'react';
+import MoreIcon from '../../../assets/images/MoreIcon';
 const DocSidebarCard = () => {
   return (
-    <div className="w-[280px] h-[40px] pt-[4px] pl-[4px] pb-[4px] pr-[8px] bg-red-500 flex items-center justify-between">
-      <div>
-        <div></div>
-        <div></div>
+    <div className="w-[280px] h-[40px] rounded-[12px] bg-slate-600 py-[4px] pl-[4px] pr-[8px] flex justify-between items-center">
+      <div className="w-[109px] h-[32px] flex justify-between items-center space-x-[8px]">
+        <div className="h-[33px] w-[32px] bg-orange-400 rounded-[12px] flex justify-center items-center">
+          N
+        </div>
+        <div className="text-white/80 text-xs font-normal font-['Manrope'] leading-none">
+          Project Title
+        </div>
       </div>
-      <div></div>
+      <div className="w-[16px] h-[16px]">{<MoreIcon />}</div>
     </div>
   );
 };
