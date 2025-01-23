@@ -29,12 +29,12 @@ function App() {
         </div>
 
         <div className="flex gap-4 items-center cursor-pointer">
-          <div className="bg-green-600 rounded-full flex justify-around items-center gap-x-3 text-white py-1 px-2">
+          <div className="bg-green-600 rounded-full flex justify-around items-center gap-x-3 text-white/100 py-1 px-2">
             <TimerIcon />
             <span>05m</span>
             <DropDownIcon />
           </div>
-          <h2 className="text-xl text-white">Tue, 24 December, 2024</h2>
+          <h2 className="text-xl text-white/50">Tue, 24 December, 2024</h2>
         </div>
       </header>
 
