@@ -21,7 +21,7 @@ const Sidebar: React.FC = () => {
 
   return (
     <div
-      className={`h-screen px-[8px] py-[12px] justify-between items-start flex flex-col bg-[#10131E] transition-all duration-300 ${
+      className={`h-screen px-[8px] py-[12px]  justify-between items-start flex flex-col bg-[#10131E] transition-all duration-300 ${
         isCollapsed ? 'w-[80px]' : 'w-[180px]'
       }`}
     >
