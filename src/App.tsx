@@ -10,9 +10,19 @@ import DocumentCard from './Components/Document-card/DocumentCard';
 import Task from './assets/images/Task';
 import DownloadIcon from './assets/images/Download';
 import Card from './Components/project-management/card/card';
+import Tooltip from './tooltip';
+import Hello from './tooltip/Hello';
+
 function App() {
-  return(
-    <Card />
+  return (
+    <>
+    <Hello/>
+        {/* <Tooltip /> */}
+    </>
+    // <Card />
+
+
+    // <Sidebar/>
   );
   // return (
   //   <div className="w-screen h-screen bg-[#10131E] flex">
